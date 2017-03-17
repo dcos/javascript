@@ -1,11 +1,21 @@
 root = true
 
 [*]
-indent_style = space
-indent_size = 2
 charset = utf-8
-trim_trailing_whitespace = true
+max_line_length = 80
+tab_width = 2
+indent_size = 2
+indent_style = space
 insert_final_newline = true
+trim_trailing_whitespace = true
 end_of_line = lf
-# editorconfig-tools is unable to ignore longs strings or urls
-max_line_length = null
+
+[*.js]
+continuation_indent_size = 2
+indent_brace_style = OTBS
+quote_type = single
+spaces_around_operators = true
+spaces_around_brackets = false
+
+[*.less]
+quote_type = double
