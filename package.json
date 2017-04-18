@@ -25,7 +25,7 @@
     "eslint-plugin-import": "^1.13.0",
     "eslint-plugin-jsx-max-len": "^1.0.0",
     "eslint-plugin-prettier": "^2.0.1",
-    "prettier": "^0.22.0"
+    "prettier": "^1.1.0"
   },
   "author": "Harrison Shoff <hi@hshoff.com> (https://twitter.com/hshoff)",
   "contributors": [
