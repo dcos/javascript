@@ -10,7 +10,7 @@ module.exports = {
     "airbnb"
   ],
   rules: {
-    "prettier": "warn",
+    "prettier/prettier": "error",
 
     "destructuring/in-methods-params": "error",
     "compat/compat": "error",
