@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-dcos",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A mostly reasonable approach to JavaScript.",
   "main": "index.js",
   "repository": {
@@ -25,7 +25,7 @@
     "eslint-plugin-import": "^1.13.0",
     "eslint-plugin-jsx-max-len": "^1.0.0",
     "eslint-plugin-prettier": "^2.0.1",
-    "prettier": "^1.1.0"
+    "prettier": "^1.2.0"
   },
   "author": "Harrison Shoff <hi@hshoff.com> (https://twitter.com/hshoff)",
   "contributors": [
