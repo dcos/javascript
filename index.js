@@ -12,6 +12,7 @@ module.exports = {
   rules: {
     "prettier/prettier": "error",
 
+
     "destructuring/in-methods-params": "error",
     "compat/compat": "error",
 
@@ -21,6 +22,7 @@ module.exports = {
     "multiline-ternary": "off", // allow both multiline and single line
 
     // Airbnb overrides
+    "curly": ["error", "all"],
     "react/jsx-filename-extension": "off", // Allow JSX in .js files
     "no-mixed-operators": ["error", {
       "groups": [
